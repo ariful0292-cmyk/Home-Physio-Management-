@@ -1,8 +1,8 @@
 // ====== SUPABASE CONFIG ======
 // Replace these two values with your Supabase project URL and anon/publishable key.
 // NEVER put a Supabase service_role key here.
-const SUPABASE_URL = "YOUR_SUPABASE_URL";
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://rojyugmsdwcuucegekha.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_JCG1dB9G7WikDppUwZUdvQ_krw1CdvS";
 
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 let state = {patients:[], therapists:[], visits:[], payments:[], notes:[]};
